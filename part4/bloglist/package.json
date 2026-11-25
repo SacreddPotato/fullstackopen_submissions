@@ -1,0 +1,33 @@
+{
+  "name": "bloglist",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test node --test",
+    "start": "cross-env NODE_ENV=production node index.js",
+    "dev": "cross-env NODE_ENV=development node --watch index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cross-env": "^10.1.0",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "express-router": "^0.0.1",
+    "jsonwebtoken": "^9.0.3",
+    "lodash-es": "^4.18.1",
+    "mongoose": "^9.12.3",
+    "nodemon": "^3.1.14"
+  },
+  "devDependencies": {
+    "@eslint-react/eslint-plugin": "^5.30.6",
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^6.0.1",
+    "eslint": "^10.15.0",
+    "globals": "^17.14.0",
+    "supertest": "^7.3.2"
+  }
+}
